@@ -3,7 +3,7 @@ from .models import Slider
 
 # Create your views here.
 def home(request):
-    sliders = Slider.objects.all(),
+    sliders = Slider.objects.all()
     data = {
         'sliders' : sliders,
     }
